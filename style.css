@@ -1,0 +1,59 @@
+#contact_img {
+  border-radius: 3%;
+  height: auto;
+  margin-right: 0px;
+}
+
+.profile_img {
+  border-radius: 3%;
+}
+
+span.hobbies {
+  color: red;
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Libre Baskerville", serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.othercontent {
+  text-align: left;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #f2f5f7, #e8edf0, #d9e2e7);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding-top: 100px;
+  height: 100vh;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer_background {
+  background-color: #edf1f3;
+}
